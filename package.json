@@ -1,0 +1,16 @@
+{
+  "name": "non_conventional_licenses_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "component-emitter": "^2.0.0",
+    "json-logic-js": "^2.0.5"
+  }
+}

@@ -1,0 +1,9 @@
+Company Custom License v1.0
+
+Copyright (c) 2024 CompanyName. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software with restrictions.
+
+Conditions:
+- Redistribution in any form must include this original license.
+- Modification of the software is prohibited without explicit permission from CompanyName.

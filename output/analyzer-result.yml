@@ -1,0 +1,136 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2024-10-28T15:23:15.358835023Z"
+  end_time: "2024-10-28T15:23:17.438147547Z"
+  environment:
+    ort_version: "33.1.0"
+    build_jdk: "11.0.24+8"
+    java_version: "21.0.4"
+    os: "Linux"
+    processors: 16
+    max_memory: 3881828352
+    variables:
+      HOME: "/home/iyme3300"
+      SHELL: "/usr/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/home/iyme3300/.sdkman/candidates/java/current"
+    tool_versions:
+      NPM: "10.8.3"
+  config:
+    allow_dynamic_versions: true
+    skip_excluded: true
+  result:
+    projects:
+    - id: "NPM::non_conventional_licenses_project:1.0.0"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    packages:
+    - id: "NPM::component-emitter:2.0.0"
+      purl: "pkg:npm/component-emitter@2.0.0"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Simple event emitter"
+      homepage_url: "https://github.com/sindresorhus/component-emitter#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/component-emitter/-/component-emitter-2.0.0.tgz"
+        hash:
+          value: "3a137dfe66fcf2efe3eab7cb7d5f51741b3620c6"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+    - id: "NPM::json-logic-js:2.0.5"
+      purl: "pkg:npm/json-logic-js@2.0.5"
+      authors:
+      - "Jeremy Wadhams"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Build complex rules, serialize them as JSON, and execute them\
+        \ in JavaScript"
+      homepage_url: "https://github.com/jwadhams/json-logic-js#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/json-logic-js/-/json-logic-js-2.0.5.tgz"
+        hash:
+          value: "55f0c687dd6f56b02ccdcfdd64171ed998ab5499"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+    dependency_graphs:
+      NPM:
+        packages:
+        - "NPM::component-emitter:2.0.0"
+        - "NPM::json-logic-js:2.0.5"
+        scopes:
+          :non_conventional_licenses_project:1.0.0:dependencies:
+          - root: 0
+          - root: 1
+        nodes:
+        - {}
+        - pkg: 1
+        edges: []
+scanner: null
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultFile"
+    curations: []
+  - provider:
+      id: "ClearlyDefined"
+    curations: []

@@ -1,0 +1,357 @@
+---
+repository:
+  vcs:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  vcs_processed:
+    type: ""
+    url: ""
+    revision: ""
+    path: ""
+  config: {}
+analyzer:
+  start_time: "2024-10-28T15:23:15.358835023Z"
+  end_time: "2024-10-28T15:23:17.438147547Z"
+  environment:
+    ort_version: "33.1.0"
+    build_jdk: "11.0.24+8"
+    java_version: "21.0.4"
+    os: "Linux"
+    processors: 16
+    max_memory: 3881828352
+    variables:
+      HOME: "/home/iyme3300"
+      SHELL: "/usr/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/home/iyme3300/.sdkman/candidates/java/current"
+    tool_versions:
+      NPM: "10.8.3"
+  config:
+    allow_dynamic_versions: true
+    skip_excluded: true
+  result:
+    projects:
+    - id: "NPM::non_conventional_licenses_project:1.0.0"
+      definition_file_path: ""
+      declared_licenses: []
+      declared_licenses_processed: {}
+      vcs:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: ""
+        url: ""
+        revision: ""
+        path: ""
+      homepage_url: ""
+      scope_names:
+      - "dependencies"
+    packages:
+    - id: "NPM::component-emitter:2.0.0"
+      purl: "pkg:npm/component-emitter@2.0.0"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Simple event emitter"
+      homepage_url: "https://github.com/sindresorhus/component-emitter#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/component-emitter/-/component-emitter-2.0.0.tgz"
+        hash:
+          value: "3a137dfe66fcf2efe3eab7cb7d5f51741b3620c6"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+    - id: "NPM::json-logic-js:2.0.5"
+      purl: "pkg:npm/json-logic-js@2.0.5"
+      authors:
+      - "Jeremy Wadhams"
+      declared_licenses:
+      - "MIT"
+      declared_licenses_processed:
+        spdx_expression: "MIT"
+      description: "Build complex rules, serialize them as JSON, and execute them\
+        \ in JavaScript"
+      homepage_url: "https://github.com/jwadhams/json-logic-js#readme"
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: "https://registry.npmjs.org/json-logic-js/-/json-logic-js-2.0.5.tgz"
+        hash:
+          value: "55f0c687dd6f56b02ccdcfdd64171ed998ab5499"
+          algorithm: "SHA-1"
+      vcs:
+        type: "Git"
+        url: "git+https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+    dependency_graphs:
+      NPM:
+        packages:
+        - "NPM::component-emitter:2.0.0"
+        - "NPM::json-logic-js:2.0.5"
+        scopes:
+          :non_conventional_licenses_project:1.0.0:dependencies:
+          - root: 0
+          - root: 1
+        nodes:
+        - {}
+        - pkg: 1
+        edges: []
+scanner:
+  start_time: "2024-10-28T15:23:26.412766597Z"
+  end_time: "2024-10-28T15:23:26.564804007Z"
+  environment:
+    ort_version: "33.1.0"
+    build_jdk: "11.0.24+8"
+    java_version: "21.0.4"
+    os: "Linux"
+    processors: 16
+    max_memory: 3881828352
+    variables:
+      HOME: "/home/iyme3300"
+      SHELL: "/usr/bin/zsh"
+      TERM: "xterm-256color"
+      JAVA_HOME: "/home/iyme3300/.sdkman/candidates/java/current"
+    tool_versions:
+      ScanCode: "32.2.1"
+  config:
+    skip_concluded: false
+    skip_excluded: false
+    archive:
+      enabled: true
+      file_storage:
+        http_file_storage: null
+        local_file_storage:
+          directory: "/home/iyme3300/Projects/hermine/~/.ort/scanner/archive"
+          compression: false
+        s3_file_storage: null
+      postgres_storage: null
+    detected_license_mapping:
+      LicenseRef-scancode-agpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-free-unknown: "NOASSERTION"
+      LicenseRef-scancode-generic-cla: "NOASSERTION"
+      LicenseRef-scancode-generic-exception: "NOASSERTION"
+      LicenseRef-scancode-generic-export-compliance: "NOASSERTION"
+      LicenseRef-scancode-generic-tos: "NOASSERTION"
+      LicenseRef-scancode-generic-trademark: "NOASSERTION"
+      LicenseRef-scancode-gpl-generic-additional-terms: "NOASSERTION"
+      LicenseRef-scancode-other-copyleft: "NOASSERTION"
+      LicenseRef-scancode-other-permissive: "NOASSERTION"
+      LicenseRef-scancode-patent-disclaimer: "NOASSERTION"
+      LicenseRef-scancode-unknown: "NOASSERTION"
+      LicenseRef-scancode-unknown-license-reference: "NOASSERTION"
+      LicenseRef-scancode-unknown-spdx: "NOASSERTION"
+      LicenseRef-scancode-warranty-disclaimer: "NOASSERTION"
+    config:
+      ScanCode:
+        options:
+          commandLine: "--copyright --license --info --strip-root --timeout 300 --json-pp\
+            \ ~/.ort/scanner/scan-results/output.json"
+          commandLineNonConfig: "--processes 4"
+          preferFileLicense: "false"
+    storages:
+      fileBasedStorage: !<.FileBasedStorageConfiguration>
+        backend:
+          http_file_storage: null
+          local_file_storage:
+            directory: "/home/iyme3300/Projects/hermine/~/.ort/scanner/scan-results"
+            compression: true
+          s3_file_storage: null
+        type: "PROVENANCE_BASED"
+    storage_readers:
+    - "fileBasedStorage"
+    storage_writers:
+    - "fileBasedStorage"
+    ignore_patterns:
+    - "**/*.ort.yml"
+    - "**/*.spdx.yml"
+    - "**/*.spdx.yaml"
+    - "**/*.spdx.json"
+    - "**/META-INF/DEPENDENCIES"
+    - "**/META-INF/DEPENDENCIES.txt"
+    - "**/META-INF/NOTICE"
+    - "**/META-INF/NOTICE.txt"
+  provenances:
+  - id: "NPM::component-emitter:2.0.0"
+    package_provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+      resolved_revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+  - id: "NPM::json-logic-js:2.0.5"
+    package_provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+      resolved_revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+  - id: "NPM::non_conventional_licenses_project:1.0.0"
+    package_provenance_resolution_issue:
+      timestamp: "2024-10-28T15:23:26.425845145Z"
+      source: "scanner"
+      message: "IOException: Could not resolve provenance for package 'NPM::non_conventional_licenses_project:1.0.0'\
+        \ for source code origins [VCS, ARTIFACT]."
+      severity: "ERROR"
+  scan_results:
+  - provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/jwadhams/json-logic-js.git"
+        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        path: ""
+      resolved_revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+    scanner:
+      name: "ScanCode"
+      version: "32.2.1"
+      configuration: "--copyright --license --info --strip-root --timeout 300 --json-pp\
+        \ ~/.ort/scanner/scan-results/output.json --json-pp"
+    summary:
+      start_time: "2024-10-28T14:55:46.000774193Z"
+      end_time: "2024-10-28T14:55:51.000326493Z"
+      licenses:
+      - license: "MIT"
+        location:
+          path: "LICENSE"
+          start_line: 1
+          end_line: 1
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE"
+          start_line: 5
+          end_line: 21
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "package.json"
+          start_line: 28
+          end_line: 28
+        score: 100.0
+      copyrights:
+      - statement: "Copyright (c) 2015 Jeremy Wadhams"
+        location:
+          path: "LICENSE"
+          start_line: 3
+          end_line: 3
+  - provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+      resolved_revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+    scanner:
+      name: "ScanCode"
+      version: "32.2.1"
+      configuration: "--copyright --license --info --strip-root --timeout 300 --json-pp\
+        \ ~/.ort/scanner/scan-results/output.json --json-pp"
+    summary:
+      start_time: "2024-10-28T14:55:37.000696118Z"
+      end_time: "2024-10-28T14:55:42.000208979Z"
+      licenses:
+      - license: "MIT"
+        location:
+          path: "LICENSE"
+          start_line: 1
+          end_line: 1
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "LICENSE"
+          start_line: 6
+          end_line: 10
+        score: 100.0
+      - license: "MIT"
+        location:
+          path: "package.json"
+          start_line: 5
+          end_line: 5
+        score: 100.0
+      copyrights:
+      - statement: "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)"
+        location:
+          path: "LICENSE"
+          start_line: 4
+          end_line: 4
+      - statement: "Copyright (c) TJ Holowaychuk <tj@tjholowaychuk.com>"
+        location:
+          path: "LICENSE"
+          start_line: 3
+          end_line: 3
+  scanners:
+    NPM::component-emitter:2.0.0:
+    - "ScanCode"
+    NPM::json-logic-js:2.0.5:
+    - "ScanCode"
+    NPM::non_conventional_licenses_project:1.0.0:
+    - "ScanCode"
+  files:
+  - provenance:
+      vcs_info:
+        type: "Git"
+        url: "https://github.com/sindresorhus/component-emitter.git"
+        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+        path: ""
+      resolved_revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
+    files:
+    - path: ".editorconfig"
+      sha1: "dcb216ced35db53d363f213142a09a2ac3353e2e"
+    - path: ".gitattributes"
+      sha1: "5a6e78ee357aad5c953ab63f7f8cd35046539168"
+    - path: ".github/workflows/main.yml"
+      sha1: "8c28893e04bb7ae15608b837c343b1b5a4c37d33"
+    - path: ".gitignore"
+      sha1: "25cb077b2e02d50fb92cde2cf283983fc21ff225"
+    - path: ".npmrc"
+      sha1: "2bc1d1c07960f206703eeb217f18f2fd4a6e7344"
+    - path: "LICENSE"
+      sha1: "166b78f1ae315980b0da45717c49b102fa8fe9e6"
+    - path: "index.d.ts"
+      sha1: "0ba61df5a18e3dadbde0e9d34f55fa592e0be346"
+    - path: "index.js"
+      sha1: "681665fd582bc33d66b2e0b68574f1ad0da43460"
+    - path: "package.json"
+      sha1: "a2e10825a34c12aaaed025bfd19af54570594fcd"
+    - path: "readme.md"
+      sha1: "f7d1edc1af99cfda17713631708d94ef863d1b66"
+    - path: "test.js"
+      sha1: "5f00bccb0149e0abcbd53be3c89e3587477fd0e5"
+advisor: null
+evaluator: null
+resolved_configuration:
+  package_curations:
+  - provider:
+      id: "DefaultFile"
+    curations: []
+  - provider:
+      id: "ClearlyDefined"
+    curations: []

@@ -7,10 +7,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "",
+  "license": "ISC",
   "description": "",
   "dependencies": {
-    "component-emitter": "^2.0.0",
-    "json-logic-js": "^2.0.5"
+    "custom-module1": "github:pixxzr/custom-module1",
+    "custom-module2": "github:pixxzr/custom-module2",
+    "custom-module3": "github:pixxzr/custom-module3"
   }
 }

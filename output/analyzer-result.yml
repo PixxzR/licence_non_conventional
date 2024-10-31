@@ -3,17 +3,17 @@ repository:
   vcs:
     type: "Git"
     url: "https://github.com/PixxzR/licence_non_conventional.git"
-    revision: "463bb43a5392596e6447c46d629fb6f05e8f4c87"
+    revision: "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54"
     path: ""
   vcs_processed:
     type: "Git"
     url: "https://github.com/PixxzR/licence_non_conventional.git"
-    revision: "463bb43a5392596e6447c46d629fb6f05e8f4c87"
+    revision: "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54"
     path: ""
   config: {}
 analyzer:
-  start_time: "2024-10-28T15:55:19.374973726Z"
-  end_time: "2024-10-28T15:55:21.941311417Z"
+  start_time: "2024-10-31T13:16:05.695614993Z"
+  end_time: "2024-10-31T13:16:09.050209410Z"
   environment:
     ort_version: "33.1.0"
     build_jdk: "11.0.24+8"
@@ -33,8 +33,8 @@ analyzer:
     skip_excluded: true
   result:
     projects:
-    - id: "NPM::custom_dependency:1.0.0"
-      definition_file_path: "custom_dependency/package.json"
+    - id: "NPM::non_conventional_licenses_project:1.0.0"
+      definition_file_path: "package.json"
       declared_licenses:
       - "ISC"
       declared_licenses_processed:
@@ -47,99 +47,119 @@ analyzer:
       vcs_processed:
         type: "Git"
         url: "https://github.com/PixxzR/licence_non_conventional.git"
-        revision: "463bb43a5392596e6447c46d629fb6f05e8f4c87"
-        path: "custom_dependency"
-      homepage_url: ""
-      scope_names: []
-    - id: "NPM::non_conventional_licenses_project:1.0.0"
-      definition_file_path: "package.json"
-      declared_licenses: []
-      declared_licenses_processed: {}
-      vcs:
-        type: ""
-        url: ""
-        revision: ""
-        path: ""
-      vcs_processed:
-        type: "Git"
-        url: "https://github.com/PixxzR/licence_non_conventional.git"
-        revision: "463bb43a5392596e6447c46d629fb6f05e8f4c87"
+        revision: "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54"
         path: ""
       homepage_url: ""
       scope_names:
       - "dependencies"
     packages:
-    - id: "NPM::component-emitter:2.0.0"
-      purl: "pkg:npm/component-emitter@2.0.0"
-      declared_licenses:
-      - "MIT"
-      declared_licenses_processed:
-        spdx_expression: "MIT"
-      description: "Simple event emitter"
-      homepage_url: "https://github.com/sindresorhus/component-emitter#readme"
-      binary_artifact:
-        url: ""
-        hash:
-          value: ""
-          algorithm: ""
-      source_artifact:
-        url: "https://registry.npmjs.org/component-emitter/-/component-emitter-2.0.0.tgz"
-        hash:
-          value: "3a137dfe66fcf2efe3eab7cb7d5f51741b3620c6"
-          algorithm: "SHA-1"
-      vcs:
-        type: "Git"
-        url: "https://github.com/sindresorhus/component-emitter.git"
-        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
-        path: ""
-      vcs_processed:
-        type: "Git"
-        url: "https://github.com/sindresorhus/component-emitter.git"
-        revision: "cfa15e8a6382f4403fb8b05f9c363ae997eb171c"
-        path: ""
-    - id: "NPM::json-logic-js:2.0.5"
-      purl: "pkg:npm/json-logic-js@2.0.5"
+    - id: "NPM::custom-module1:1.0.0"
+      purl: "pkg:npm/custom-module1@1.0.0"
       authors:
-      - "Jeremy Wadhams"
+      - "Your Name"
       declared_licenses:
-      - "MIT"
+      - "ISC"
       declared_licenses_processed:
-        spdx_expression: "MIT"
-      description: "Build complex rules, serialize them as JSON, and execute them\
-        \ in JavaScript"
-      homepage_url: "https://github.com/jwadhams/json-logic-js#readme"
+        spdx_expression: "ISC"
+      description: "A custom module with a non-standard license"
+      homepage_url: ""
       binary_artifact:
         url: ""
         hash:
           value: ""
           algorithm: ""
       source_artifact:
-        url: "https://registry.npmjs.org/json-logic-js/-/json-logic-js-2.0.5.tgz"
+        url: ""
         hash:
-          value: "55f0c687dd6f56b02ccdcfdd64171ed998ab5499"
-          algorithm: "SHA-1"
+          value: ""
+          algorithm: ""
       vcs:
         type: "Git"
-        url: "git+https://github.com/jwadhams/json-logic-js.git"
-        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        url: "https://github.com/pixxzr/custom-module1.git"
+        revision: ""
         path: ""
       vcs_processed:
         type: "Git"
-        url: "https://github.com/jwadhams/json-logic-js.git"
-        revision: "c5c73601c90b11e98f6846609bac4dec203d1c18"
+        url: "https://github.com/pixxzr/custom-module1.git"
+        revision: ""
+        path: ""
+    - id: "NPM::custom-module2:1.0.0"
+      purl: "pkg:npm/custom-module2@1.0.0"
+      authors:
+      - "Your Name"
+      declared_licenses:
+      - "MIT45"
+      declared_licenses_processed:
+        unmapped:
+        - "MIT45"
+      description: "A custom module with a slightly modified MIT license"
+      homepage_url: ""
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/pixxzr/custom-module2.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/pixxzr/custom-module2.git"
+        revision: ""
+        path: ""
+    - id: "NPM::custom-module3:1.0.0"
+      purl: "pkg:npm/custom-module3@1.0.0"
+      authors:
+      - "Your Name"
+      declared_licenses:
+      - "CustomHiddenLicense"
+      declared_licenses_processed:
+        unmapped:
+        - "CustomHiddenLicense"
+      description: "A custom module with a hidden license in a non-standard file"
+      homepage_url: ""
+      binary_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      source_artifact:
+        url: ""
+        hash:
+          value: ""
+          algorithm: ""
+      vcs:
+        type: "Git"
+        url: "https://github.com/pixxzr/custom-module3.git"
+        revision: ""
+        path: ""
+      vcs_processed:
+        type: "Git"
+        url: "https://github.com/pixxzr/custom-module3.git"
+        revision: ""
         path: ""
     dependency_graphs:
       NPM:
         packages:
-        - "NPM::component-emitter:2.0.0"
-        - "NPM::json-logic-js:2.0.5"
+        - "NPM::custom-module1:1.0.0"
+        - "NPM::custom-module2:1.0.0"
+        - "NPM::custom-module3:1.0.0"
         scopes:
           :non_conventional_licenses_project:1.0.0:dependencies:
           - root: 0
           - root: 1
+          - root: 2
         nodes:
         - {}
         - pkg: 1
+        - pkg: 2
         edges: []
 scanner: null
 advisor: null

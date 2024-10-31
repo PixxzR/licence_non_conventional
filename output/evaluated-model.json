@@ -1,0 +1,1101 @@
+{
+  "path_excludes" : [ ],
+  "scope_excludes" : [ ],
+  "copyrights" : [ {
+    "_id" : 0,
+    "statement" : "Copyright (c) TJ Holowaychuk <tj@tjholowaychuk.com>"
+  }, {
+    "_id" : 1,
+    "statement" : "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)"
+  }, {
+    "_id" : 2,
+    "statement" : "Copyright (c) 2015 Jeremy Wadhams"
+  }, {
+    "_id" : 3,
+    "statement" : "Copyright (c) 2024 location path LICENSE.txt"
+  }, {
+    "_id" : 4,
+    "statement" : "Copyright (c) 2024"
+  } ],
+  "licenses" : [ {
+    "_id" : 0,
+    "id" : "ISC"
+  }, {
+    "_id" : 1,
+    "id" : "MIT"
+  }, {
+    "_id" : 2,
+    "id" : "LicenseRef-scancode-proprietary-license"
+  }, {
+    "_id" : 3,
+    "id" : "NOASSERTION"
+  }, {
+    "_id" : 4,
+    "id" : "MIT45"
+  }, {
+    "_id" : 5,
+    "id" : "CustomHiddenLicense"
+  } ],
+  "scopes" : [ {
+    "_id" : 0,
+    "name" : "dependencies"
+  } ],
+  "issue_resolutions" : [ ],
+  "issues" : [ ],
+  "scan_results" : [ {
+    "_id" : 0,
+    "provenance" : {
+      "vcs_info" : {
+        "type" : "Git",
+        "url" : "https://github.com/PixxzR/licence_non_conventional.git",
+        "revision" : "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54",
+        "path" : ""
+      },
+      "resolved_revision" : "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54"
+    },
+    "scanner" : {
+      "name" : "ScanCode",
+      "version" : "32.2.1",
+      "configuration" : "--copyright --license --info --strip-root --timeout 300 --json-pp ~/.ort/scanner/scan-results/output.json --json-pp"
+    },
+    "start_time" : "2024-10-28T15:57:33.000097616Z",
+    "end_time" : "2024-10-28T15:57:39.000164417Z",
+    "package_verification_code" : "c28f2f48737b275b8fce1b107fb64c991fb81e75"
+  }, {
+    "_id" : 1,
+    "provenance" : {
+      "vcs_info" : {
+        "type" : "Git",
+        "url" : "https://github.com/pixxzr/custom-module1.git",
+        "revision" : "",
+        "path" : ""
+      },
+      "resolved_revision" : "cc88e38c672496697b6f019a0a70b6f0c4abfe29"
+    },
+    "scanner" : {
+      "name" : "ScanCode",
+      "version" : "32.2.1",
+      "configuration" : "--copyright --license --info --strip-root --timeout 300 --json-pp ~/.ort/scanner/scan-results/output.json --json-pp"
+    },
+    "start_time" : "2024-10-31T13:16:34.000200194Z",
+    "end_time" : "2024-10-31T13:16:38.000140567Z",
+    "package_verification_code" : "04d72cc32ba3f7302648e4f9218ba3ffbc08c477"
+  }, {
+    "_id" : 2,
+    "provenance" : {
+      "vcs_info" : {
+        "type" : "Git",
+        "url" : "https://github.com/pixxzr/custom-module2.git",
+        "revision" : "",
+        "path" : ""
+      },
+      "resolved_revision" : "2f42e00efe8dade403a196cc6dfeb6be0885cf98"
+    },
+    "scanner" : {
+      "name" : "ScanCode",
+      "version" : "32.2.1",
+      "configuration" : "--copyright --license --info --strip-root --timeout 300 --json-pp ~/.ort/scanner/scan-results/output.json --json-pp"
+    },
+    "start_time" : "2024-10-31T13:16:26.000241018Z",
+    "end_time" : "2024-10-31T13:16:30.000027974Z",
+    "package_verification_code" : "f3286621e65da9c38d173cc97c77e1b5d1555e18"
+  }, {
+    "_id" : 3,
+    "provenance" : {
+      "vcs_info" : {
+        "type" : "Git",
+        "url" : "https://github.com/pixxzr/custom-module3.git",
+        "revision" : "",
+        "path" : ""
+      },
+      "resolved_revision" : "a5657c15f9005fcc5f98e1a4e757f538d5fd09c7"
+    },
+    "scanner" : {
+      "name" : "ScanCode",
+      "version" : "32.2.1",
+      "configuration" : "--copyright --license --info --strip-root --timeout 300 --json-pp ~/.ort/scanner/scan-results/output.json --json-pp"
+    },
+    "start_time" : "2024-10-31T13:16:42.000221226Z",
+    "end_time" : "2024-10-31T13:16:45.000719635Z",
+    "package_verification_code" : "790b138d5ffd81a02dbe1b31b27577092075a4ab"
+  } ],
+  "packages" : [ {
+    "_id" : 0,
+    "id" : "NPM::non_conventional_licenses_project:1.0.0",
+    "is_project" : true,
+    "definition_file_path" : "package.json",
+    "declared_licenses" : [ 0 ],
+    "declared_licenses_processed" : {
+      "spdx_expression" : "ISC",
+      "mapped_licenses" : [ 0 ]
+    },
+    "detected_licenses" : [ 0, 1, 2, 3 ],
+    "binary_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "source_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "vcs" : {
+      "type" : "",
+      "url" : "",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/PixxzR/licence_non_conventional.git",
+      "revision" : "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54",
+      "path" : ""
+    },
+    "paths" : [ ],
+    "levels" : [ 0 ],
+    "scan_results" : [ 0 ],
+    "findings" : [ {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "custom_dependency/package-lock.json",
+      "start_line" : 10,
+      "end_line" : 10,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "custom_dependency/package.json",
+      "start_line" : 10,
+      "end_line" : 10,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "node_modules/.package-lock.json",
+      "start_line" : 9,
+      "end_line" : 9,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 272,
+      "end_line" : 272,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "package-lock.json",
+      "start_line" : 10,
+      "end_line" : 10,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "node_modules/component-emitter/license",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "node_modules/component-emitter/license",
+      "start_line" : 4,
+      "end_line" : 4,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "node_modules/json-logic-js/LICENSE",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/.package-lock.json",
+      "start_line" : 15,
+      "end_line" : 15,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/.package-lock.json",
+      "start_line" : 31,
+      "end_line" : 31,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 74,
+      "end_line" : 75,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 104,
+      "end_line" : 105,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 290,
+      "end_line" : 290,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 296,
+      "end_line" : 296,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 302,
+      "end_line" : 302,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 308,
+      "end_line" : 308,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 314,
+      "end_line" : 314,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 320,
+      "end_line" : 320,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 326,
+      "end_line" : 326,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 332,
+      "end_line" : 332,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 338,
+      "end_line" : 338,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 344,
+      "end_line" : 344,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 350,
+      "end_line" : 350,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 356,
+      "end_line" : 356,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 362,
+      "end_line" : 362,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 368,
+      "end_line" : 368,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 374,
+      "end_line" : 374,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 380,
+      "end_line" : 380,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 386,
+      "end_line" : 386,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 392,
+      "end_line" : 392,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 398,
+      "end_line" : 398,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 404,
+      "end_line" : 404,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 410,
+      "end_line" : 410,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 416,
+      "end_line" : 416,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 518,
+      "end_line" : 518,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 524,
+      "end_line" : 524,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 530,
+      "end_line" : 530,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 558,
+      "end_line" : 558,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 564,
+      "end_line" : 564,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 570,
+      "end_line" : 570,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 611,
+      "end_line" : 611,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "package-lock.json",
+      "start_line" : 20,
+      "end_line" : 20,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "package-lock.json",
+      "start_line" : 32,
+      "end_line" : 32,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/component-emitter/license",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/component-emitter/license",
+      "start_line" : 6,
+      "end_line" : 10,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/component-emitter/package.json",
+      "start_line" : 5,
+      "end_line" : 5,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/json-logic-js/LICENSE",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/json-logic-js/LICENSE",
+      "start_line" : 5,
+      "end_line" : 21,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "node_modules/json-logic-js/package.json",
+      "start_line" : 28,
+      "end_line" : 28,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/analyzer-result.yml",
+      "start_line" : 74,
+      "end_line" : 75,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "output/analyzer-result.yml",
+      "start_line" : 104,
+      "end_line" : 105,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 452,
+      "end_line" : 452,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 457,
+      "end_line" : 457,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 462,
+      "end_line" : 462,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 537,
+      "end_line" : 537,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 472,
+      "end_line" : 472,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 477,
+      "end_line" : 477,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 482,
+      "end_line" : 482,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 577,
+      "end_line" : 577,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 3,
+      "path" : "output/scan-result.yml",
+      "start_line" : 467,
+      "end_line" : 469,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 487,
+      "end_line" : 487,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 492,
+      "end_line" : 492,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 497,
+      "end_line" : 497,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 582,
+      "end_line" : 582,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 4,
+      "path" : "LICENSE.txt",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 278,
+      "end_line" : 278,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 284,
+      "end_line" : 284,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "COPYING",
+      "start_line" : 5,
+      "end_line" : 5,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "LICENSE",
+      "start_line" : 7,
+      "end_line" : 7,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "custom_dependency/COPYING",
+      "start_line" : 5,
+      "end_line" : 5,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "custom_dependency/LICENSE",
+      "start_line" : 7,
+      "end_line" : 7,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 452,
+      "end_line" : 452,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 457,
+      "end_line" : 457,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 462,
+      "end_line" : 462,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 2,
+      "path" : "output/scan-result.yml",
+      "start_line" : 537,
+      "end_line" : 537,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 472,
+      "end_line" : 472,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 477,
+      "end_line" : 477,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 482,
+      "end_line" : 482,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 1,
+      "path" : "output/scan-result.yml",
+      "start_line" : 577,
+      "end_line" : 577,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 3,
+      "path" : "output/scan-result.yml",
+      "start_line" : 467,
+      "end_line" : 469,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 487,
+      "end_line" : 487,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 492,
+      "end_line" : 492,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 497,
+      "end_line" : 497,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 0,
+      "path" : "output/scan-result.yml",
+      "start_line" : 582,
+      "end_line" : 582,
+      "scan_result" : 0
+    }, {
+      "type" : "COPYRIGHT",
+      "copyright" : 4,
+      "path" : "LICENSE.txt",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "COPYING",
+      "start_line" : 7,
+      "end_line" : 7,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "COPYING",
+      "start_line" : 9,
+      "end_line" : 9,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "LICENSE",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "LICENSE",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "custom_dependency/COPYING",
+      "start_line" : 7,
+      "end_line" : 7,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "custom_dependency/COPYING",
+      "start_line" : 9,
+      "end_line" : 9,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "custom_dependency/LICENSE",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 0
+    }, {
+      "type" : "LICENSE",
+      "license" : 3,
+      "path" : "custom_dependency/LICENSE",
+      "start_line" : 3,
+      "end_line" : 3,
+      "scan_result" : 0
+    } ],
+    "is_excluded" : false
+  }, {
+    "_id" : 1,
+    "id" : "NPM::custom-module1:1.0.0",
+    "is_project" : false,
+    "definition_file_path" : "",
+    "purl" : "pkg:npm/custom-module1@1.0.0",
+    "authors" : [ "Your Name" ],
+    "declared_licenses" : [ 0 ],
+    "declared_licenses_processed" : {
+      "spdx_expression" : "ISC",
+      "mapped_licenses" : [ 0 ]
+    },
+    "detected_licenses" : [ 0 ],
+    "effective_license" : "ISC",
+    "description" : "A custom module with a non-standard license",
+    "binary_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "source_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module1.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module1.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "paths" : [ 0 ],
+    "levels" : [ 0 ],
+    "scopes" : [ 0 ],
+    "scan_results" : [ 1 ],
+    "findings" : [ {
+      "type" : "LICENSE",
+      "license" : 0,
+      "path" : "package.json",
+      "start_line" : 11,
+      "end_line" : 11,
+      "scan_result" : 1
+    } ],
+    "is_excluded" : false
+  }, {
+    "_id" : 2,
+    "id" : "NPM::custom-module2:1.0.0",
+    "is_project" : false,
+    "definition_file_path" : "",
+    "purl" : "pkg:npm/custom-module2@1.0.0",
+    "authors" : [ "Your Name" ],
+    "declared_licenses" : [ 4 ],
+    "declared_licenses_processed" : {
+      "unmapped_licenses" : [ 4 ]
+    },
+    "detected_licenses" : [ 2, 1 ],
+    "effective_license" : "LicenseRef-scancode-proprietary-license AND MIT",
+    "description" : "A custom module with a slightly modified MIT license",
+    "binary_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "source_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module2.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module2.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "paths" : [ 1 ],
+    "levels" : [ 0 ],
+    "scopes" : [ 0 ],
+    "scan_results" : [ 2 ],
+    "findings" : [ {
+      "type" : "LICENSE",
+      "license" : 2,
+      "path" : "package.json",
+      "start_line" : 11,
+      "end_line" : 11,
+      "scan_result" : 2
+    }, {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "LICENSE_MODIFIED.txt",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 2
+    } ],
+    "is_excluded" : false
+  }, {
+    "_id" : 3,
+    "id" : "NPM::custom-module3:1.0.0",
+    "is_project" : false,
+    "definition_file_path" : "",
+    "purl" : "pkg:npm/custom-module3@1.0.0",
+    "authors" : [ "Your Name" ],
+    "declared_licenses" : [ 5 ],
+    "declared_licenses_processed" : {
+      "unmapped_licenses" : [ 5 ]
+    },
+    "detected_licenses" : [ 1 ],
+    "effective_license" : "MIT",
+    "description" : "A custom module with a hidden license in a non-standard file",
+    "binary_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "source_artifact" : {
+      "url" : "",
+      "hash" : {
+        "value" : "",
+        "algorithm" : ""
+      }
+    },
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module3.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/pixxzr/custom-module3.git",
+      "revision" : "",
+      "path" : ""
+    },
+    "paths" : [ 2 ],
+    "levels" : [ 0 ],
+    "scopes" : [ 0 ],
+    "scan_results" : [ 3 ],
+    "findings" : [ {
+      "type" : "LICENSE",
+      "license" : 1,
+      "path" : "hidden_license.dat",
+      "start_line" : 1,
+      "end_line" : 1,
+      "scan_result" : 3
+    } ],
+    "is_excluded" : false
+  } ],
+  "paths" : [ {
+    "_id" : 0,
+    "pkg" : 1,
+    "project" : 0,
+    "scope" : 0,
+    "path" : [ ]
+  }, {
+    "_id" : 1,
+    "pkg" : 2,
+    "project" : 0,
+    "scope" : 0,
+    "path" : [ ]
+  }, {
+    "_id" : 2,
+    "pkg" : 3,
+    "project" : 0,
+    "scope" : 0,
+    "path" : [ ]
+  } ],
+  "dependency_trees" : [ {
+    "key" : 0,
+    "pkg" : 0,
+    "children" : [ {
+      "key" : 1,
+      "scope" : 0,
+      "children" : [ {
+        "key" : 2,
+        "linkage" : "DYNAMIC",
+        "pkg" : 1
+      }, {
+        "key" : 3,
+        "linkage" : "DYNAMIC",
+        "pkg" : 2
+      }, {
+        "key" : 4,
+        "linkage" : "DYNAMIC",
+        "pkg" : 3
+      } ]
+    } ]
+  } ],
+  "rule_violation_resolutions" : [ ],
+  "rule_violations" : [ ],
+  "vulnerabilities_resolutions" : [ ],
+  "vulnerabilities" : [ ],
+  "statistics" : {
+    "repository_configuration" : {
+      "path_excludes" : 0,
+      "scope_excludes" : 0,
+      "license_choices" : 0,
+      "license_finding_curations" : 0,
+      "issue_resolutions" : 0,
+      "rule_violation_resolutions" : 0,
+      "vulnerability_resolutions" : 0
+    },
+    "open_issues" : {
+      "errors" : 0,
+      "warnings" : 0,
+      "hints" : 0,
+      "severe" : 0
+    },
+    "open_rule_violations" : {
+      "errors" : 0,
+      "warnings" : 0,
+      "hints" : 0,
+      "severe" : 0
+    },
+    "open_vulnerabilities" : 0,
+    "dependency_tree" : {
+      "included_projects" : 1,
+      "excluded_projects" : 0,
+      "included_packages" : 3,
+      "excludes_packages" : 0,
+      "total_tree_depth" : 1,
+      "included_tree_depth" : 1,
+      "included_scopes" : [ "dependencies" ],
+      "excluded_scopes" : [ ]
+    },
+    "licenses" : {
+      "declared" : {
+        "ISC" : 2
+      },
+      "detected" : {
+        "ISC" : 2,
+        "LicenseRef-scancode-proprietary-license" : 2,
+        "MIT" : 3,
+        "NOASSERTION" : 1
+      },
+      "effective" : {
+        "ISC" : 2,
+        "LicenseRef-scancode-proprietary-license" : 2,
+        "MIT" : 3,
+        "NOASSERTION" : 1
+      }
+    },
+    "execution_duration_in_seconds" : 36
+  },
+  "repository" : {
+    "vcs" : {
+      "type" : "Git",
+      "url" : "https://github.com/PixxzR/licence_non_conventional.git",
+      "revision" : "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54",
+      "path" : ""
+    },
+    "vcs_processed" : {
+      "type" : "Git",
+      "url" : "https://github.com/PixxzR/licence_non_conventional.git",
+      "revision" : "e8acc2b29a81f472cbc4337ae1b5f7e9814b3d54",
+      "path" : ""
+    },
+    "config" : { }
+  },
+  "severe_issue_threshold" : "WARNING",
+  "severe_rule_violation_threshold" : "WARNING",
+  "repository_configuration" : "--- {}\n",
+  "labels" : { },
+  "metadata" : {
+    "analyzer_start_time" : "2024-10-31T13:16:05.695614993Z"
+  }
+}
